@@ -4,7 +4,7 @@ import "./Layout.scss"
 
 // TODO make Home link work
 // TODO make title of page dynamic
-const Layout = () => (
+const Layout = (props) => (
   <div className="Layout">
     <div className="Layout-header">
       <a href="/#">
@@ -18,7 +18,7 @@ const Layout = () => (
       </h2>
     </div>
     <div className="Layout-body container">
-      content goes here
+      {props.children}
     </div>
   </div>
 );
