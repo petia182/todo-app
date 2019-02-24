@@ -14,7 +14,7 @@ const Layout = (props) => (
         Todo App
       </h1>
       <h2>
-        Lists
+        {props.pageTitle}
       </h2>
     </div>
     <div className="Layout-body container">
