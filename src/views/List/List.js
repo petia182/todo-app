@@ -10,6 +10,7 @@ const List = () => (
         title="Shopping List"
         numberOfTasks={4}
       />
+      <button>New list</button>
     </Layout>
   </div>
 )
